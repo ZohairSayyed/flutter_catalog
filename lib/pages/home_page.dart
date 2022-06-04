@@ -15,6 +15,15 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Catalog"),
       ),
+      // appBar: AppBar(
+      //   title: Text(
+      //     "Catalog",
+      //     style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+      //   ),
+      //   backgroundColor: Colors.deepPurple,
+      //   elevation: 0.0,
+      //   iconTheme: IconThemeData(color: Colors.white),
+      // ),
       body: Center(
         child: Container(
           child: Text("$text $version"),
